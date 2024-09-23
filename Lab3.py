@@ -5,11 +5,11 @@ import pandas as pd
 # 2. Import the SampleSuperstore dataset as a pandas DataFrame, and call it 'df'
 df = pd.read_excel('SampleSuperstore.xls')
 
-# 3. View the DataFrame (Implicitly viewing the dataset)
+# 3. View the DataFrame (Implicitly view the dataset)
 print(df.head())  # This will show the first 5 rows of the DataFrame
 
 # 4. View the shape of the dataset and display the names of the columns
-print("Shape of the dataset:", df.shape)  # Shape shows (rows, columns)
+print("Shape of the dataset:", df.shape)  # (rows, columns)
 print("Column names:", df.columns)
 
 # 5. View information about the dataset including range index, datatypes, and number of non-null entries
