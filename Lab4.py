@@ -76,3 +76,9 @@ correlation_matrix = df[['Sales', 'Quantity', 'Discount', 'Profit']].corr()
 print("\nCorrelation matrix:")
 print(correlation_matrix)
 
+import seaborn as sns
+plt.figure(figsize=(8,6))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
+plt.title('Correlation Matrix')
+plt.show()
+
